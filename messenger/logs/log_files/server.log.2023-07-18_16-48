@@ -1,0 +1,9 @@
+2023-07-18 16:48:09,569 INFO server.py Установлено соедение с ПК ('127.0.0.1', 63491)
+2023-07-18 16:48:09,571 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63491)>,), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2023-07-18 16:48:09,571 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689688089.5692697, 'user': {'account_name': 'test1'}}
+2023-07-18 16:48:09,572 INFO server.py Клиент ('127.0.0.1', 63491) отключился от сервера.
+2023-07-18 16:48:32,785 INFO server.py Установлено соедение с ПК ('127.0.0.1', 63494)
+2023-07-18 16:48:33,286 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=656, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63494)>,), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2023-07-18 16:48:33,286 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689688112.7847006, 'user': {'account_name': 'test2'}}
+2023-07-18 16:48:33,287 INFO server.py Клиент ('127.0.0.1', 63494) отключился от сервера.
+2023-07-18 16:48:45,296 INFO server.py Клиент ('127.0.0.1', 63472) отключился от сервера.

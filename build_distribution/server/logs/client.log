@@ -1,0 +1,4 @@
+2023-08-06 14:25:37,467 CRITICAL config_client_log.py Test critical event
+2023-08-06 14:25:37,468 ERROR config_client_log.py Test error ivent
+2023-08-06 14:25:37,468 DEBUG config_client_log.py Test debug ivent
+2023-08-06 14:25:37,468 INFO config_client_log.py Test info ivent

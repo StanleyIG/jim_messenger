@@ -1,0 +1,6 @@
+2023-07-19 15:04:18,134 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=1236, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56389)>,), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2023-07-19 15:04:18,136 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1689768257.4280415, 'mess_text': 'Привет test2 это тестовое сообщение'}
+2023-07-19 15:04:18,261 DEBUG utils.py Была вызвана функция send_message c параметрами (<socket.socket fd=1368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56390)>, {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1689768257.4280415, 'mess_text': 'Привет test2 это тестовое сообщение'}), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции process_message
+2023-07-19 15:04:18,288 INFO server.py Отправлено сообщение пользователю test2 от пользователя test1.
+2023-07-19 15:04:29,799 INFO server.py Клиент ('127.0.0.1', 56390) отключился от сервера.
+2023-07-19 15:04:30,901 INFO server.py Клиент ('127.0.0.1', 56389) отключился от сервера.

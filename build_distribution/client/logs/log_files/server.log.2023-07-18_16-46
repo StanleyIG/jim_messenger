@@ -1,0 +1,7 @@
+2023-07-18 16:46:01,867 INFO server.py Установлено соедение с ПК ('127.0.0.1', 63472)
+2023-07-18 16:46:01,869 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63472)>,), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2023-07-18 16:46:01,869 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1689687961.8677516, 'user': {'account_name': 'client_1'}}
+2023-07-18 16:46:01,973 DEBUG utils.py Была вызвана функция send_message c параметрами (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63472)>, {'response': 200}), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции process_client_message
+2023-07-18 16:46:20,990 DEBUG utils.py Была вызвана функция get_message c параметрами (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 63472)>,), {}. Вызов из модуля common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2023-07-18 16:46:20,990 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'client_1', 'to': 'Hello', 'time': 1689687980.707207, 'mess_text': 'dcvdsv'}
+2023-07-18 16:46:20,990 ERROR server.py Пользователь Hello не зарегистрирован на сервере, отправка сообщения невозможна.
